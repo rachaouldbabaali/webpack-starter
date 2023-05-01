@@ -1,0 +1,20 @@
+{
+  "name": "webpack-starter",
+  "version": "1.0.0",
+  "description": "This is my webpack template to be used in the next projects",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.81.0",
+    "webpack-cli": "^5.0.2"
+  },
+  "dependencies": {
+    "loadash": "^1.0.0",
+    "lodash": "^4.17.21"
+  }
+}
