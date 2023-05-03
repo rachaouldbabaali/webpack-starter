@@ -1,1 +1,0 @@
-(()=>{"use strict";console.log((async()=>{try{const o=await fetch("https://icanhazdadjoke.com/",{headers:{Accept:"application/json"}}),c=await o.json();jokeEl.innerHTML=c.joke}catch(o){console.log("The error is",o)}})())})();
