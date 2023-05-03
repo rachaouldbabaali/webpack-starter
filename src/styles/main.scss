@@ -1,21 +1,24 @@
 $primary-color : #dd5a5a;
 $secondary-color : #f2f2f2;
-$tertiary-color : #333333;
-$quaternary-color : #ffffff;
+$tertiary-color : #333;
+$quaternary-color : #fff;
 
 $primary-font : 'Roboto', sans-serif;
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: $primary-font;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $primary-font;
 }
-body{
-    background-color: $quaternary-color;
+
+body {
+  background-color: $quaternary-color;
 }
-h1{
-    font-size: 3rem;
-    color: $primary-color;
-    text-align: center;
-    margin: 2rem 0;
+
+h1 {
+  font-size: 3rem;
+  color: $primary-color;
+  text-align: center;
+  margin: 2rem 0;
 }

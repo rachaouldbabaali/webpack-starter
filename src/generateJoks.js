@@ -1,6 +1,5 @@
 function generateJoks() {
-    return 'I am a jok'
+  return 'I am a jok';
 }
 
-
-    export default generateJoks;
+export default generateJoks;

@@ -38,7 +38,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  font-family: \"Roboto\", sans-serif;\n}\n\nbody {\n  background-color: #ffffff;\n}\n\nh1 {\n  font-size: 3rem;\n  color: #dd5a5a;\n  text-align: center;\n  margin: 2rem 0;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AAMA;EACI,SAAA;EACA,UAAA;EACA,sBAAA;EACA,iCALY;AAAhB;;AAOA;EACI,yBAVgB;AAMpB;;AAMA;EACI,eAAA;EACA,cAjBa;EAkBb,kBAAA;EACA,cAAA;AAHJ","sourcesContent":["$primary-color : #dd5a5a;\r\n$secondary-color : #f2f2f2;\r\n$tertiary-color : #333333;\r\n$quaternary-color : #ffffff;\r\n\r\n$primary-font : 'Roboto', sans-serif;\r\n*{\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n    font-family: $primary-font;\r\n}\r\nbody{\r\n    background-color: $quaternary-color;\r\n}\r\nh1{\r\n    font-size: 3rem;\r\n    color: $primary-color;\r\n    text-align: center;\r\n    margin: 2rem 0;\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  font-family: \"Roboto\", sans-serif;\n}\n\nbody {\n  background-color: #fff;\n}\n\nh1 {\n  font-size: 3rem;\n  color: #dd5a5a;\n  text-align: center;\n  margin: 2rem 0;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AAOA;EACE,SAAA;EACA,UAAA;EACA,sBAAA;EACA,iCANc;AAAhB;;AASA;EACE,sBAZkB;AAMpB;;AASA;EACE,eAAA;EACA,cApBe;EAqBf,kBAAA;EACA,cAAA;AANF","sourcesContent":["$primary-color : #dd5a5a;\r\n$secondary-color : #f2f2f2;\r\n$tertiary-color : #333;\r\n$quaternary-color : #fff;\r\n\r\n$primary-font : 'Roboto', sans-serif;\r\n\r\n* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n  font-family: $primary-font;\r\n}\r\n\r\nbody {\r\n  background-color: $quaternary-color;\r\n}\r\n\r\nh1 {\r\n  font-size: 3rem;\r\n  color: $primary-color;\r\n  text-align: center;\r\n  margin: 2rem 0;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -616,7 +616,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-console.log((0,_generateJoks_js__WEBPACK_IMPORTED_MODULE_0__["default"])());
+(0,_generateJoks_js__WEBPACK_IMPORTED_MODULE_0__["default"])();
+var img = document.createElement('img');
+img.src = _assets_favicon_png__WEBPACK_IMPORTED_MODULE_2__;
+document.body.appendChild(img);
 })();
 
 /******/ })()
